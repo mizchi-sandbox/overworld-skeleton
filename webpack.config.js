@@ -10,7 +10,8 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.coffee$/, loader: "coffee" }
+      { test: /\.coffee$/, loader: "coffee" },
+      { test: /\.jade$/, loader: "react-jade-loader" }
     ]
   },
 

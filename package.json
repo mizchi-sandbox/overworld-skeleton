@@ -1,5 +1,5 @@
 {
-  "name": "demoapp",
+  "name": "overworld-skeleton",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,6 +17,10 @@
     "lodash": "^2.4.1",
     "overworld": "0.0.2",
     "react": "^0.12.1",
+    "react-jade": "^2.3.0",
     "webpack": "^1.4.13"
+  },
+  "devDependencies": {
+    "react-jade-loader": "^0.1.0"
   }
 }
